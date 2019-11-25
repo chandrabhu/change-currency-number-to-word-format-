@@ -90,7 +90,7 @@ if(isset($_GET["id"]) && !empty($_GET["id"])){
  $currency_format = moneyFormatIndia(100000);
  $number_to_word = convertToIndianCurrency(100000);
  
-	echo '$ '.$currency_format.'is in word as'.$number_to_word.;
+	echo '$ '.$currency_format.'is in word as'.$number_to_word;
 
 }
 ?>
